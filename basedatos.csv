@@ -5,8 +5,8 @@ ID_Parada,Latitud,Longitud,Nombre_Parada,
 ,,,,
 tabla_horarios,Columna1,Columna2,Columna3,Columna4
 ID_Ruta,ID_Parada,Hora_Inicio,Hora_Fin,Dia
-101,1,06:00,23:00,L-V
-101,1,07:00,22:00,S-D
+1,1,06:00,23:00,L-V
+2,1,07:00,22:00,S-D
 ,,,,
 ,,,,
 tabla_frecuencia,Columna1,Columna2,Columna3,
