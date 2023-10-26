@@ -1,39 +1,39 @@
-Tabla 1: Información de Paradas,Columna1,Columna2,Columna3,
+tabla_paradas,Columna1,Columna2,Columna3,
 ID_Parada,Latitud,Longitud,Nombre_Parada,
 1,40.7128,-74.006,Parada A,
 2,40.7145,-73.9981,Parada B,
 ,,,,
-Tabla 2: Horarios de Servicio,Columna1,Columna2,Columna3,Columna4
+tabla_horarios,Columna1,Columna2,Columna3,Columna4
 ID_Ruta,ID_Parada,Hora_Inicio,Hora_Fin,Dia
 101,1,06:00,23:00,L-V
 101,1,07:00,22:00,S-D
 ,,,,
 ,,,,
-Tabla 3: Frecuencia de Servicios,Columna1,Columna2,Columna3,
+tabla_frecuencia,Columna1,Columna2,Columna3,
 ID_Ruta,Intervalo_Horas_Pico,Intervalo_Horas_No_Pico,,
 101,10 min,20 min,,
 102,15 min,25 min,,
 ,,,,
 ,,,,
-Tabla 4: Datos de Pasajeros,Columna1,Columna2,Columna3,
+tabla_pasajeros,Columna1,Columna2,Columna3,
 ID_Ruta,ID_Parada,Hora_Del_Dia,Pasajeros,
 101,1,08:00,120,
 101,2,08:00,95,
 ,,,,
 ,,,,
-Tabla 5: Duración y Distancia de Viaje,Columna1,Columna2,Columna3,Columna4
+tabla_duracion_distancia,Columna1,Columna2,Columna3,Columna4
 ID_Ruta,ID_Parada_Origen,ID_Parada_Destino,Duración_Promedio,Distancia_km
 101,1,2,15 min,2.5
 101,2,3,12 min,2
 ,,,,
 ,,,,
-Tabla 6: Datos de Vehículos,Columna1,Columna2,Columna3,
+tabla_vehiculos,Columna1,Columna2,Columna3,
 ID_Vehiculo,Tipo,Capacidad,Eficiencia_Energética,
 A1,Bus,50,Alta,
 A2,Bus,60,Media,
 ,,,,
 ,,,,
-Tabla 7: Eventos Especiales,Columna1,Columna2,Columna3,
+tabla_eventos_especiales,Columna1,Columna2,Columna3,
 ID_Evento,Fecha,Descripción,Impacto_Ruta,
 E1,01/11/2023,Concierto en Parque X,Alta,
 E2,25/12/2023,Desfile Navideño,Media,
